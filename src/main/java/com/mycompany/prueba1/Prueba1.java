@@ -25,7 +25,8 @@ public class Prueba1 {
         System.out.println(user2);
         System.out.println(user3);
    
-        Alumno alumno1 = new Alumno(2, 3, 1, "Mateo", "Pizarro", byte(22), true, "chileno")
-        alumno.saludar();
+        //Alumno alumno1 = new Alumno(2, 3, 1, "mensaje", "mensaje", byte(33), true, "mensaje");
+        //Alumno alumno1 = new Alumno(2, 3, 1, "Mateo", "Pizarro", byte(22), true, "chileno");
+        //alumno1.saludar();
     }
 }

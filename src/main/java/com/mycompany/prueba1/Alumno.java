@@ -23,7 +23,6 @@ public class Alumno extends Usuario {
         this.nota3 = nota3;
     }
 
-
     public double getNota1() {
         return nota1;
     }
