@@ -15,5 +15,17 @@ public class Prueba1 {
         
         String mensaje = "Este es un mensaje";
         System.out.println(mensaje);
+        
+        //instancias e invocar
+        Usuario user1 = new Usuario("Leslie", "Reyes", (byte)30, false, "Chilena");
+        Usuario user2 = new Usuario("Gustavo", "Gallegos", (byte)30, false, "Chilena");
+        Usuario user3 = new Usuario("Jonathan", "Fuentealba", (byte)35, true, "Chilena");
+        
+        System.out.println(user1);
+        System.out.println(user2);
+        System.out.println(user3);
+   
+        Alumno alumno1 = new Alumno(2, 3, 1, "Mateo", "Pizarro", byte(22), true, "chileno")
+        alumno.saludar();
     }
 }
